@@ -9,7 +9,11 @@ import lejos.hardware.sensor.EV3TouchSensor;
 import lejos.hardware.sensor.EV3UltrasonicSensor;
 import lejos.hardware.sensor.SensorMode;
 import lejos.utility.Delay;
-
+/*Collaborators:
+ * Tricia Bacon (730011125)
+ * Sarah Ganci (720510446)
+ * 
+ * */
 public class Lab1 {
 
 	public static void main(String[] args) {
