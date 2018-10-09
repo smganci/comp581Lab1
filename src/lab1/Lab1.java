@@ -120,7 +120,7 @@ public class Lab1 {
 		float[] sample_touch4 = new float[touch4.sampleSize()];
 
 		//3.3: move forward and fetch another sample of touch while both touch sensor arrays have no values (ie no contact)
-	    while(sample_touch1[0] == 0 && sample_touch4[0]==0) {
+		while(sample_touch1[0] == 0 && sample_touch4[0]==0) {
 		      mC.forward();
 		      mB.forward();
 		      touch1.fetchSample(sample_touch1,0);
